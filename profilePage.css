@@ -1,1 +1,57 @@
-this is css file
+H1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+p {
+    color:rgb(14, 13, 13);
+    font: size 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+
+   
+    
+    
+ }
+
+ header{
+    border-radius: 5px;
+    background-color: #cadef3;
+    padding: 8px;
+    font-size: 1.2em;
+ }
+
+
+ img {
+    width: 100px;
+    border-radius: 8px    
+    
+}
+
+ footer{
+    border-radius: 5px;
+    background-color: #cadef3;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+ }
+
+ li {
+    transition: background-color 0.3s ease;
+}
+li:hover {
+    background-color: #ddd;
+}
+
+ul {
+    list-style-type: square;
+    
+}
